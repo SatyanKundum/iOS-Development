@@ -1,0 +1,54 @@
+"#view": {
+	layout: "vertical",
+	height:Titanium.UI.FILL,
+	width:Titanium.UI.FILL,
+	backgroundColor: "white"
+}
+
+"#logo":{
+	image: "/logo.png",
+	top: "50",
+	height: "60",
+	width: "80"
+}
+
+"#label": {
+	top: "50",
+	color: "black",
+	textAlign: "center"
+}
+
+"#usernameTextField": {
+	borderStyle: "Ti.UI.INPUT_BORDERSTYLE_ROUNDED",
+	color: "#336699",
+	top: "20",
+	left: "100",
+	right: "100",
+	width: Titanium.UI.FILL,
+	height: "30",
+	borderColor: "black",
+	hintText: "Username"
+}
+
+"#passwordTextField": {
+	borderStyle: "Ti.UI.INPUT_BORDERSTYLE_ROUNDED",
+	color: "#336699",
+	top: "20",
+	left: "100",
+	right: "100",
+	width: Titanium.UI.FILL,
+	height: "30",
+	borderColor: "black",
+	passwordMask: true,
+	hintText: "Password"
+}
+
+"#submit":{
+	width: Titanium.UI.FILL,
+	top: "20",
+	left: "150",
+	right: "150",
+	title: "Submit",
+	backgroundColor: "#2B5382",
+	color: "white"
+}

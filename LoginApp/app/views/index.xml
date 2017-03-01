@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="win">
+		<View id="view">
+			<Label id="label">Login App</Label>
+			<ImageView id="logo"></ImageView>
+			<TextField id="usernameTextField"></TextField>
+			<TextField id="passwordTextField"></TextField>
+			<Button id="submit" onClick="doClick"></Button>
+		</View>
+	</Window>
+</Alloy>

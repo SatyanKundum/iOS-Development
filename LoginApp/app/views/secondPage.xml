@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="win">
+		<View class="container">
+			<Button id="back" onClick="doClick"></Button>
+			<Label id="label">An opening to the innovative world.</Label>
+			<ImageView id="logo"></ImageView>
+		</View>
+	</Window>
+</Alloy>

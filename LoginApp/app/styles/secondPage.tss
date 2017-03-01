@@ -1,0 +1,28 @@
+".container": {
+	layout: "vertical",
+	backgroundColor: "white"
+}
+
+"#label": {
+	top: "50",
+	color: "black",
+	textAlign: "center"
+}
+
+"#back": {
+	top: "20",
+	left: "30",
+	title: "Back",
+	height: "30",
+	width: "60"
+}
+
+"#logo":{
+	image: "/logo2.jpg",
+	top: "30",
+	bottom: "100",
+	left: "60",
+	right: "60",
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL
+}
